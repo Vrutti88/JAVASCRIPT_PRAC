@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onmouseover="myfunction()">Click me!</button><br>
+    <form action="">
+        enter: <input type="text" id="myInput" onfocus="focuse(this)">
+        password: <input type="text" id="myInput" onblur="blure(this)">
+    </form>
+    <script>
+        function focuse(x){
+        x.style.background="yellow";
+        x.style.color="red";
+        x.style.fontSize="20px";
+        x.style.fontFamily="Arial";
+        x.style.textAlign="center";
+        }
+        function blure(x){
+        x.style.background="red";
+        x.style.color="yellow";
+        x.style.fontSize="16px";
+        x.style.fontFamily="Arial";
+        x.style.textAlign="left";
+        }
+    </script>
+    <script type="text/javascript" src="may7_6.js"></script>
+</body>
+</html>
